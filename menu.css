@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;700&family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&display=swap");
+
+body{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    width: 100%;
+    text-transform: uppercase;   
+}
+
+#logo{
+    background-image: url(/scr/sp.png);
+    
+    
+}
