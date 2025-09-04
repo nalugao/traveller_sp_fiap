@@ -3,7 +3,7 @@
 /* # isso é um id */
 
 #container {
-  width: 1700px;
+  width: 1500px;
   margin: auto;
 }
 
@@ -47,20 +47,28 @@ img:hover {
 
 #carrossel {
   display: flex;
+  width: auto;;
 }
 
 #restaurante,
 #restaurante_page,
 #parque,
 #parque_page {
-  width: 600px;
+  width: 450px;
   height: 300px;
   align-items: center;
   margin: auto;
   border-radius: 10px;
   padding: 10px;
+  display: flex;
+}
+
+#carrossel {
+  width: 900px;
 }
 
 iframe {
   width: 100%;
+  height: 280px;
+  
 }

@@ -7,11 +7,14 @@ body {
 }
 
 #logo {
-  background-image: url(./scr/logo.png);
-  /* background-repeat: no-repeat; */
-  width: 626px;
-  height: 357px;
-  display: block;
+  background-image: url(./src/logo.png);
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center;
+  width: 426px;
+  height: 157px;
+  display:flex;
+  margin: 5px auto;
 }
 
 #menu {
@@ -19,17 +22,17 @@ body {
 }
 
 ul {
+  background-color: #dc143c;
   border: 3px solid pink;
-  background-color: rebeccapurple;
   margin: 10px;
-  padding: 14px;
-  border-radius: 0 10px 0 10px;
+  padding: 30px;
+  border-radius: 5px 10px 5px 10px;
 }
 
 ul,
 li {
   display: inline;
-  padding: 0 10px 0 10px;
+  padding: 5px;
 }
 
 ul,
@@ -42,8 +45,11 @@ a {
 ul,
 li,
 a:hover {
-  background-color: #dc143c;
   color: #000;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  padding-left: 20px;
 }
