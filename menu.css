@@ -1,14 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;700&family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&display=swap");
 
-body{
-    font-size: 20px;
-    font-family: 'Open Sans';
-    width: 100%;
-    text-transform: uppercase;   
+body {
+  font-size: 20px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
 }
 
-#logo{
-    background-image: url(/scr/sp.png);
-    
-    
+#logo {
+  background-image: url(./scr/logo.png);
+  /* background-repeat: no-repeat; */
+  width: 626px;
+  height: 357px;
+  display: block;
+}
+
+#menu {
+  width: 100%;
+}
+
+ul {
+  border: 3px solid pink;
+  background-color: rebeccapurple;
+  margin: 10px;
+  padding: 14px;
+  border-radius: 0 10px 0 10px;
+}
+
+ul,
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+ul,
+li,
+a {
+  color: beige;
+  text-decoration: none;
+}
+
+ul,
+li,
+a:hover {
+  background-color: #dc143c;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
